@@ -53,7 +53,31 @@ if st.button('Show Recommendation'):
         st.text(recommended_movie_names[4])
         st.image(recommended_movie_posters[4])
 
+import base64
 
+# Function to set background image
+def set_bg(image_file):
+    with open(image_file, "rb") as f:
+        data = f.read()
+    encoded = base64.b64encode(data).decode()
+    page_bg = f"""
+    <style>
+    .stApp {{
+        background-image: url("data:image/png;base64,{encoded}");
+        background-size: cover;
+    }}
+    </style>
+    """
+    st.markdown(page_bg, unsafe_allow_html=True)
+
+# Call background function (put any image file in your repo, e.g. "background.jpg")
+set_bg("background.jpg")
+
+# Title style
+st.markdown(
+    "<h1 style='text-align: center; color: yellow;'>🎬 Movie Recommender System 🍿</h1>", 
+    unsafe_allow_html=True
+)
 
 
 
