@@ -79,5 +79,12 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+import pickle
+import os
 
+# Safe way to load files
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+movies = pickle.load(open(os.path.join(BASE_DIR, "movie_list.pkl"), "rb"))
+similarity = pickle.load(open(os.path.join(BASE_DIR, "similarity.pkl"), "rb"))
 
