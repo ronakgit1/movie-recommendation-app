@@ -21,5 +21,7 @@ It suggests similar movies based on the one you select.
 │── movies.pkl            # Preprocessed movie dataset
 
 │── similarity.pkl        # Precomputed similarity matrix
+
 │── requirements.txt      # Dependencies
+
 │── README.md             # Project documentation
