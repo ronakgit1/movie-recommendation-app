@@ -4,6 +4,8 @@ This is a **Movie Recommender App** built with Python and Streamlit.
 It suggests similar movies based on the one you select.  
 
 🔗 **Live App**: [Movie Recommender](https://movie-recommender-rc.streamlit.app)  
+🔗 **Live Demo**: [Movie Recommender App](https://movie-recommender-rc.streamlit.app/)  
+📂 **GitHub Repo**: [movie-recommendation-app](https://github.com/ronakgit1/movie-recommendation-app/tree/main)
 
 ## 🚀 Features  
 - Choose a movie from the dropdown  
