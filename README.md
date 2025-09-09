@@ -15,7 +15,7 @@ It suggests similar movies based on the one you select.
 - Pandas, NumPy, Pickle  
 - TMDB Dataset  
 
-## movie-recommendation-app/ 
+## movie-recommendation-app
 
 │── app.py                # Main Streamlit app
 │── movies.pkl            # Preprocessed movie dataset
