@@ -16,12 +16,12 @@ It suggests similar movies based on the one you select.
 - TMDB Dataset  
 
 ## movie-recommendation-app
-│── app.py                # Main Streamlit app
+│── app.py----            # Main Streamlit app
 
-│── movies.pkl            # Preprocessed movie dataset
+│── movies.pkl   ----    # Preprocessed movie dataset
 
-│── similarity.pkl        # Precomputed similarity matrix
+│── similarity.pkl  ----  # Precomputed similarity matrix
 
-│── requirements.txt      # Dependencies
+│── requirements.txt ----   # Dependencies
 
-│── README.md             # Project documentation
+│── README.md      ----   # Project documentation
